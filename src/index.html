@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <center>
-      <script defer src='main.js' ></script>
-      <h1>💖 Hello World!</h1>
-      <p>Welcome to your Electron application.</p>
-      <a href="https://google.com">go</a>
-    </center>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="main.js"></script>
+</head>
+
+
+<body onload="myFunction()" onresize="myFunction()">
+
+  <div id='top'>hello</div>
+  <div class="main" id='main'>
+    <webview id='web' src='https://github.com'></webview>
+  </div>
+<!-- <webview>.goBack() -->
+</body>
 </html>
